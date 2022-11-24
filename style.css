@@ -44,5 +44,37 @@ span{
 }
 
 #time{
-    font-size: 21px;
+    font-size: 1.3125rem;
+    font-family: 'Knewave', cursive;
+}
+
+.footer{
+    width: 98%;
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+}
+
+#counter{
+    text-align: left;
+}
+
+#weather{
+    text-align: right;
+}
+
+.clock{
+    width: 55%;
+}
+
+.clockbg{
+    border: 1px solid red;
+    background-image: url("img/clock.png");
+}
+
+#timer{
+    font-size: 4.5vw;
+    position: absolute;
+    top: 10%;
+    left: 12%;
 }
